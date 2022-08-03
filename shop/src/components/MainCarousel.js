@@ -5,10 +5,10 @@ export class MainCarousel extends Component {
   render () {
     return (
       <Carousel>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={500}>
           <img
             className='d-block w-100'
-            src='holder.js/800x400?text=First slide&bg=373940'
+            src={require('../assets/cover/firstImg.jpg')}
             alt='First slide'
           />
           <Carousel.Caption>
@@ -19,7 +19,7 @@ export class MainCarousel extends Component {
         <Carousel.Item interval={500}>
           <img
             className='d-block w-100'
-            src='holder.js/800x400?text=Second slide&bg=282c34'
+            src={require('../assets/cover/secondImg.jpg')}
             alt='Second slide'
           />
           <Carousel.Caption>
@@ -27,10 +27,10 @@ export class MainCarousel extends Component {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={500}>
           <img
             className='d-block w-100'
-            src='holder.js/800x400?text=Third slide&bg=20232a'
+            src={require('../assets/cover/thirdImg.jpg')}
             alt='Third slide'
           />
           <Carousel.Caption>

@@ -3,10 +3,19 @@
 }
 
 .black-nav {
-  background: #808000;
+  background: #ececb1;
   color: rgb(49, 46, 49);
   font-family: 'Open Sans', sans-serif;
 
+}
+
+.carousel{
+  height: 300px;
+}
+.items{
+  height: 200px;
+  max-width: 100%;
+  display: block;
 }
 /* 
 .main-bg {

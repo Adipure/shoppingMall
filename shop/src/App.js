@@ -1,7 +1,9 @@
 /* eslint-disable react/style-prop-object */
+import { useState } from 'react'
 import { Button, Navbar, Container, Nav } from 'react-bootstrap'
 import './App.css'
 import MainCarousel from './components/MainCarousel'
+import MainitemCard from './components/ItemCard/itemCard'
 
 function App () {
   return (
@@ -18,7 +20,8 @@ function App () {
           </Nav>
         </Container>
       </Navbar>
-      <MainCarousel />
+      {/* <MainCarousel className='carousel' /> */}
+      <MainitemCard />
     </div>
   )
 }
